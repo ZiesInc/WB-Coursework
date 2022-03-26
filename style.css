@@ -1,76 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 body {
-    margin: 0;
-  }
+  margin: 0;
+}
 
 .hero-wrapper {
-    background-image: url("../sigiriya.jpg");
-    background-size: cover;
-    height: 1100px;
-    width: 100%;
-    /* overflow: hidden; */
-  
-    /* position: relative;
-    width: 100%;
-    height: 900px;  */
-  }
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.475),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../sigiriya.jpg");
+  background-size: cover;
+  height: 1100px;
+  width: 100%;
+}
 
-/* div {
-    background-color: none;
-  } */
- 
 .logo {
-    font-family: 'Satisfy', cursive;
-    text-decoration: none;
-    font-size: 45px;
-    color: white;
-    margin: 0;
-    position: relative;
-    left: 50px;
-    top: 30px;
-
+  font-family: "Satisfy", cursive;
+  text-decoration: none;
+  font-size: 64px;
+  color: white;
+  margin: 0;
+  position: relative;
+  left: 50px;
+  top: 30px;
 }
 
-/* .nav-bar {
-    display: grid;
-    grid-template-columns: 10% 70% 5% 15%;
-    height: 75px;
-    border: 2px solid black;
-    border-left: none;
-    border-right: none;
-} */
-
-
-.nav-links{
-    position: relative;
-    top: 100px;
-
-
-
+.nav-links {
+  position: relative;
+  width: 615px;
+  height: 41px;
+  left: 1100px;
+  bottom: 50px;
+  background: rgba(255, 255, 255, 0.62);
+  border-radius: 20px 0px 0px 20px;
 }
+
+a {
+  /* display: inline-block; */
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  padding: 0 15px 5px 15px;
+  font-family: "Cabin", sans-serif;
+  color: #4a4a4a;
+  /* font-weight: 400; */
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.menu {
+  width: 32px;
+  padding: 5px 0 0 60px;
+  /* position: relative;
+  left: 60px;
+  top: 5px; */
+}
+
 .main-topic {
-    position: relative;
-    top: 570px ;
-    margin:  auto; 
-    text-align: center;   
-    color: white;
-    
+  position: relative;
+  top: 500px;
+  margin: auto;
+  text-align: center;
+  color: white;
 }
 
 .trav {
-    font-family: 'Dosis', sans-serif;
-    font-size: 48px;
-    margin: 0;
-   
+  font-family: "Dosis", sans-serif;
+  font-size: 48px;
+  margin: 0;
 }
 
 .sri {
-    display: inline;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 98px;
-    font-weight: 500;
+  display: inline;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 98px;
+  font-weight: 500;
 }
-    
