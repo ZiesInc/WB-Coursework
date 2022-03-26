@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #fdf6ec;
 }
 
 html {
@@ -134,8 +134,8 @@ a {
   height: 453px;
   width: 603px;
   position: relative;
-  bottom: 340px;
-  left: 75px;
+  bottom: 280px;
+  left: 100px;
   z-index: -1;
 }
 
@@ -259,7 +259,8 @@ a {
   font-size: 24px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  width: 150px;
+  text-align: center;
+  width: 145px;
   position: relative;
   top: 40px;
   left: 650px;
