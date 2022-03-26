@@ -107,7 +107,7 @@ a {
 .abt-para {
   padding: 20px 60px 0 100px;
   text-align: left;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Vollkorn", serif;
 }
 
@@ -125,6 +125,7 @@ a {
   font-family: "Martel", serif;
   font-size: 48px;
   text-align: center;
+  margin-top: 100px;
   position: relative;
   bottom: 250px;
 }
@@ -133,10 +134,71 @@ a {
   height: 454px;
   width: 388px;
   object-fit: cover;
+  position: relative;
+  left: 90px;
+  bottom: 200px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   justify-content: center;
+}
+
+.dotted-line {
+  background-color: none;
+  border-top: 5px dotted #8c8b8b;
+  width: 30%;
+  position: relative;
+  bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.dotted-line-two {
+  background-color: none;
+  border-top: 5px dotted #8c8b8b;
+  width: 30%;
+  position: relative;
+  bottom: 250px;
+  margin-bottom: 100px;
+}
+
+.hotel-image {
+  float: right;
+  height: 379px;
+  width: 567px;
+  margin-top: 100px;
+  margin-right: 100px;
+  padding: 0 0 0 100px;
+}
+
+.fourth-topic {
+  font-family: "Martel", serif;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  right: 70px;
+}
+
+.hotels-para {
+  text-align: left;
+  font-size: 20px;
+  font-family: "Vollkorn", serif;
+  padding: 0 0 0 50px;
+}
+
+.grey-box-two {
+  background-color: #dadadaeb;
+  width: 568px;
+  height: 384px;
+  z-index: -1;
+  position: relative;
+  left: 1060px;
+  bottom: 120px;
+}
+
+.read-more {
+  position: relative;
+  bottom: 300px;
+  left: 100px;
 }
