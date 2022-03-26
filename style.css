@@ -4,10 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
 
 body {
   margin: 0;
   background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hero-wrapper {
@@ -33,6 +40,11 @@ body {
   top: 30px;
 }
 
+.menu-item {
+  position: relative;
+  bottom: 30px;
+}
+
 .nav-links {
   position: relative;
   width: 615px;
@@ -42,14 +54,17 @@ body {
   background: rgba(255, 255, 255, 0.62);
   border-radius: 20px 0px 0px 20px;
 }
-/* .nav-links :hover {
+
+.nav-links :hover {
   text-decoration: underline;
-} */
+  color: #ffffff;
+}
+
 a {
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
   left: 100px;
-  padding: 0 15px 5px 15px;
+  padding: 10px 15px 5px 15px;
   font-family: "Cabin", sans-serif;
   color: #4a4a4a;
   font-size: 24px;
@@ -58,7 +73,10 @@ a {
 
 .menu {
   width: 32px;
-  padding: 5px 0 0 150px;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-right: 60px;
+
   /* position: relative;
   left: 60px;
   top: 5px; */
@@ -201,4 +219,99 @@ a {
   position: relative;
   bottom: 300px;
   left: 100px;
+}
+
+.final-wrapper {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.475),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../hill.jpg");
+  background-size: cover;
+  height: 695px;
+}
+
+.tag {
+  font-family: "Prata", serif;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 75px;
+}
+
+.site-name {
+  font-family: "Satisfy", cursive;
+  font-size: 96px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 75px;
+}
+
+.btn {
+  background: #ff6a13;
+  border-radius: 9px;
+  text-shadow: 1px 1px 3px #858585;
+  font-family: "Chivo", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 150px;
+  position: relative;
+  top: 40px;
+  left: 650px;
+}
+
+.btn:hover {
+  background: #fc9d6a;
+  text-decoration: none;
+}
+
+.footer-section {
+  background-color: #2b6277;
+  height: 418px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-content: center;
+}
+
+.logo-name {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  color: #ffffff;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+
+.footer-topics {
+  font-family: "Chivo", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.footer-details {
+  font-family: "Chivo", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  padding-left: 100px;
+}
+
+.footer-details:hover {
+  color: #bbf6fa;
+}
+
+.social-links {
+  height: 38px;
+  width: 38px;
+  color: #ffffff;
+  padding-top: 100px;
 }
