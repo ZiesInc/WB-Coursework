@@ -55,8 +55,8 @@ html {
   position: relative;
   width: 615px;
   height: 41px;
-  left: 1100px;
-  bottom: 50px;
+  left: 1000px;
+  bottom: 230px;
   background: rgba(255, 255, 255, 0.62);
   border-radius: 20px 0px 0px 20px;
 }
@@ -90,7 +90,7 @@ a {
 
 .main-topic {
   position: relative;
-  top: 500px;
+  top: 300px;
   margin: auto;
   text-align: center;
   color: white;
@@ -217,7 +217,7 @@ a {
   height: 384px;
   z-index: -1;
   position: relative;
-  left: 1060px;
+  left: 950px;
   bottom: 120px;
 }
 
@@ -227,6 +227,10 @@ a {
   left: 100px;
 }
 
+.read-more:hover {
+  text-decoration: underline;
+  color: #fc9d6a;
+}
 .final-wrapper {
   background-image: linear-gradient(
       0deg,
@@ -269,7 +273,7 @@ a {
   width: 145px;
   position: relative;
   top: 40px;
-  left: 650px;
+  left: 600px;
 }
 
 .btn:hover {
@@ -385,4 +389,51 @@ a {
   padding-top: 0;
   position: relative;
   bottom: 20px;
+}
+
+/* ------------------------------------------About-us page css goes below here---------------------------------------- */
+
+.header-wrapper {
+  height: 192.5px;
+  background-color: #9ab8c4;
+  position: relative;
+  bottom: 100px;
+  z-index: -1;
+}
+
+.logo-wrapper {
+  height: 300px;
+}
+
+.about-us-topic {
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  font-size: 50px;
+}
+
+.pic-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #5b899b;
+  height: 300px;
+  width: 600px;
+  position: relative;
+  left: 500px;
+}
+
+.about-para {
+  height: 500px;
+  width: 700px;
+  text-align: center;
+  position: relative;
+  left: 450px;
+}
+
+/* ------------------------------------------contact-us page css goes below here---------------------------------------- */
+
+#f-2 {
+  width: 500px;
+  position: relative;
+  left: 550px;
+  bottom: 350px;
 }
