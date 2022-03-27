@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,6 +10,20 @@
       function showAndClearField(myFormRef) {
         //let name = document.f1.fname.value;
         //alert(name);
+=======
+<!doctype html>
+    <html lang="en">
+	    <head>
+		    <title>Touristy Form</title>
+			<meta charset="UTF-8">
+			<link rel="icon" href="favicon (1).ico" />
+			<link rel="stylesheet" type="text/css" href="style.css" />
+			</style>
+            <script>
+				function showAndClearField(myFormRef){
+					//let name = document.f1.fname.value;
+					//alert(name);
+>>>>>>> 300a7b853ffe98b1662fe09907dea74d23cb074f
 
         let dname = myFormRef.fname.value;
         let gname = myFormRef.jaddress.value;
@@ -28,6 +43,7 @@
           myFormRef.fname.value = "";
         }
 
+<<<<<<< HEAD
         if (selectRadioOption == "1") {
           alert("You have chosen Subject 1");
         } else if (selectRadioOption == "2") {
@@ -76,3 +92,55 @@
     </form>
   </body>
 </html>
+=======
+					if(selectRadioOption == "1"){
+						alert("You have chosen Subject 1");
+					}else if(selectRadioOption == "2"){
+						alert("You have chosen subject 2");
+					}else if(selectRadioOption == "3"){
+						alert("You have chosen Subject 3");
+					}	
+				}
+				
+				function getRadioValue(radioArray){
+					for( let i = 0; i < radioArray.lenght; i++){
+						if(radioArray[i].checked){
+							return radioArray[i].value;
+						}
+					}
+				}
+                
+            </script>
+
+			
+		</head>
+		<body>
+			<form name="f1" action="mailto::*" method="">
+			    <fieldset name = "f2" id="f2">
+				  <legend>Query</legend>
+			        <label for="fname">Name:</label>
+				    <input type="text" name="name" id="fname" size="20">
+                    <br/><br/>
+                    <label for="email">Email:</label>
+				    <input type="email" name="email" id="email">
+                    <br/><br/>
+                    <label for="subject 1">Subject 1</label>
+                    <input type="radio" name="subject" id="subject 1" value="1">
+                    <label for="subject 2">Subject 2</label>
+                    <input type="radio" name="subject" id="subject 2" value="2">
+                    <label for="subject 3">Subject 3</label>
+                    <input type="radio" name="subject" id="subject 3" value="3">    
+                    <br/><br/>
+				    <label for="jaddress" cols="6" rows="100">Details :</label>
+				    <textarea name="address" id="jaddress">
+				    </textarea>
+                    <br/><br/>
+				    <input type="button" value="Show and Clear Input" onclick="showAndClearField(this.form);">
+				    
+				</fieldset>	
+				
+			</form>
+		</body>
+	</html>	
+		
+>>>>>>> 300a7b853ffe98b1662fe09907dea74d23cb074f
