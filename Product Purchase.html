@@ -1,52 +1,319 @@
-<!doctype html>
-    <html lang="en">
-        <head>
-            <title>
-                Purchase Products
-            </title>
-            
+<!DOCTYPE html>
+<html lang="en">
+<!-- THIS PAGE HAS A PRESENTATION PAGE WHICH WILL BE USED AT FIRST, CHANGE THE LINK TO THE MAIN PAGE-->
+    <head>
+        <title>Touristy | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="Student_1_webpage.css" />
+        <link rel="stylesheet" href="navigationBar.css" />
+    </head>
+    <body id="FontSize">
+        <!--NAVIGATION BAR-->
+        <div class="container yellow topBotomBordersIn">    <!--navigation bar section-->
+            <div id="titleName">Touristy</div>
+            <a href="*" class="main">HOME</a>
+            <a href="storePage.html" class="main">STORE</a>
+            <a href="Quiz2.html" class="main">QUIZ</a>
+            <a href="Creators.html" class="main">CREATORS</a>
+            <div class="dropdown">
+                <a id="droplink" class="main">OTHER</a>
+                <div class="dropdown-content">
+                    <a href="presentationPage.html" target="_blank" class="subMain">PRESENTATION PAGE</a>
+                    <a href="student_4.html" class="subMain">SPORTS DETAILS</a>
+                    <a href="form.html" target="_blank" class="subMain">FEEDBACK FORM</a>
+                    <a href="siteMap.html" class="subMain">SITE MAP</a>
+                </div>
+            </div>
+        </div> 
+        <img class="logo" alt="logo" src="images/TT.png"/>  <!--logo-->
 
-        </head>
+            <div class='STORE'>
+                <h1>| &nbsp The STORE &nbsp|</h1>
+            </div>
+            <!--PLEASE DO NOT TOUCH THIS PART AS ITS SENSITIVE-->
+            <div class="head_slides" >
 
-        <body>
-            <form>
-                <label for="fname">Name:</label>
-				<input type="text" name="name" id="fname" size="20" value="">
+              <img class="mySlides" src="images/sigiriya.jpg" >
+              <img class="mySlides" src="images/dhaladha.jpg" >
+              <img class="mySlides" src="images/pinnawala.jpg" >
 
-                <label for="email">Email:</label>
-				<input type="email" name="email" id="email">
-
-                <p> Invoice Details</p>
-                <p>--------------------------------------------------------------------------------------------------------------------------------------------------</p>
-                
-                <label for="products">Product Option</label>
-				    <select name="products" id="products">
-					    <option value="1">Product 1</option>
-						<option value="2">Product 2</option>
-						<option value="3">Product 3</option>
-					</select>
-                <br/><br/>
-                <label for="size">Choose Size</label>
-				    <select name="size" id="size">
-					    <option value="s">Small</option>
-						<option value="m">Medium</option>
-						<option value="l">Large</option>
-					</select>   
-                <br/><br/>    
-                <label for="quantity">Quantity (between 1 and 5):</label>
-                <input type="number" id="quantity" name="quantity" min="1">
-                <br/><br/>
-                <input type="submit" value="Submit">   
-            </form>
-            <script>
-                function myfunction(){
-                    let answer = prompt("Answer is =... ","");
-                }
-                
-
-            </script>
-
-        </body>
-
-    </html>
+              </div>
+              <!--this is the buttons to increase/decrease the font size-->
+              <div class='upDownButtons'>
+             <h3>If you Find the current font size a bit small or big, feel free to adjust it</h3>
+                  <div id="Increase_button">
+                    <button id="increasebtn" value="Increase" type="button" onclick="changeFontSize(this)">Increase</button>
+                   </div>
+                   <div id="Decrease_button">
+                    <button id="decreasebtn" value="Decrease" type="button" onclick="changeFontSize(this)">Decrease</button>
+                  </div>
+              </div>
        
+        <!--section holds travel accessories -->
+        <section class="container1 content-section">
+            <h2 id='footballSection' class="section-header">Travelling Accessories</h2>
+            <div class="shop-items">
+
+            <!--Each product is classified with this same div tag-->
+                <div class="shop-item">                    
+                    <img class="shop-item-image" src="images/Bag 1.jpg">
+                    <span class="shop-item-title">Bag Design 1</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$50.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                   
+                    <img class="shop-item-image" src="images/Bag 2.jpg">
+                    <span class="shop-item-title">Bag Design 2</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$35.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                    
+                    <img class="shop-item-image" src="images/Bag 3.jpg">
+                    <span class="shop-item-title">Bag Design 3</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$30.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div> 
+
+                <div class="shop-item">                   
+                    <img class="shop-item-image" src="images/bottle 1.png">
+                    <span class="shop-item-title">Travel Bottle 1</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                  
+                    <img class="shop-item-image" src="images/bottle 2.jpg">
+                    <span class="shop-item-title">Travel Bottle 2</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                    
+                    <img class="shop-item-image" src="images/bottle 3.jpg">
+                    <span class="shop-item-title">Travel Bottle 3</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                    
+                    <img class="shop-item-image" src="images/torch.jpg">
+                    <span class="shop-item-title">Travelling Torch</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                   
+                    <img class="shop-item-image" src="images/powerbank.jpg">
+                    <span class="shop-item-title">Power Bank</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$29.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">                   
+                    <img class="shop-item-image" src="images/saknife.jpg">
+                    <span class="shop-item-title">Swiss Army Knife</span>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$49.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!--Cart section, JS sensitive-->
+        <section class="container1 content-section">
+            <h2 class="section-header">CART</h2>
+            <!--product details when added to cart-->
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            <!--products appear here-->
+            </div>
+            <!--total price displayed here-->
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price"></span>
+            </div>
+
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        
+          
+        </section>
+        
+        <script>
+        /*Sliders algorithm here*/
+        var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 9000);
+             
+            }
+
+        if (document.readyState == 'loading') {
+        document.addEventListener('DOMContentLoaded', ready)
+            } else {
+                ready()
+        }
+
+        function ready() {
+        /*remove product button from cart */
+            var removeCartItemButtons = document.getElementsByClassName('btn-danger')
+            for (var i = 0; i < removeCartItemButtons.length; i++) {
+                var button = removeCartItemButtons[i]
+                button.addEventListener('click', removeCartItem)
+            }
+            /*quantity list from cart*/
+            var quantityInputs = document.getElementsByClassName('cart-quantity-input')
+            for (var i = 0; i < quantityInputs.length; i++) {
+                var input = quantityInputs[i]
+                input.addEventListener('change', quantityChanged)
+            }
+            /*add to cart button in product*/
+            var addToCartButtons = document.getElementsByClassName('shop-item-button')
+            for (var i = 0; i < addToCartButtons.length; i++) {
+                var button = addToCartButtons[i]
+                button.addEventListener('click', addToCartClicked)
+            }
+
+            document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+        }
+        /*purchase button function here*/
+        function purchaseClicked() {
+
+            var x=prompt("Enter your first name",'first name');
+            var y=prompt("Enter your last name",'last name');
+            alert(x+" "+y+" "+'Thank you for your purchase')
+    
+            var cartItems = document.getElementsByClassName('cart-items')[0]
+            while (cartItems.hasChildNodes()) {
+                cartItems.removeChild(cartItems.firstChild)
+            }
+            /*update called here, please check function before after every change*/
+            updateCartTotal()
+        }
+        /*remove cart item function here*/
+        function removeCartItem(event) {
+            var buttonClicked = event.target
+            buttonClicked.parentElement.parentElement.remove()
+            /*update called here, please check function before after every change*/
+            updateCartTotal()
+        }
+        /* quantity change in the cart function here*/
+        function quantityChanged(event) {
+            var input = event.target
+            if (isNaN(input.value) || input.value <= 0) {
+                input.value = 1
+            }
+            /*update called here, please check function before after every change*/
+            updateCartTotal()
+        }
+        /*add to cart 'EVENT!!' function from products*/
+        function addToCartClicked(event) {
+            var button = event.target
+            var shopItem = button.parentElement.parentElement
+            var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
+            var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+            var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+            addItemToCart(title, price, imageSrc)
+            /*update called here, please check function before after every change*/
+            updateCartTotal()
+        }
+        /*add to cart from products here*/
+        function addItemToCart(title, price, imageSrc) {
+            var cartRow = document.createElement('div')
+            cartRow.classList.add('cart-row')
+            var cartItems = document.getElementsByClassName('cart-items')[0]
+            var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+            for (var i = 0; i < cartItemNames.length; i++) {
+                if (cartItemNames[i].innerText == title) {
+                    alert('You have choosen the same Product, you can increase quantity in the cart itself')
+                    return
+                }
+            }
+            /*Cart contents*/
+            var cartRowContents = `
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+                    <span class="cart-item-title">${title}</span>
+                </div>
+                <span class="cart-price cart-column">${price}</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>`
+            cartRow.innerHTML = cartRowContents
+            cartItems.append(cartRow)
+            cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+            cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+        }
+        /*update cart function here*/
+        function updateCartTotal() {
+            var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+            var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+            var total = 0
+            for (var i = 0; i < cartRows.length; i++) {
+                var cartRow = cartRows[i]
+                var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+                var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
+                var price = parseFloat(priceElement.innerText.replace('$', ''))
+                var quantity = quantityElement.value
+                total = total + (price * quantity)
+
+            }
+            total = Math.round(total * 100) / 100
+            document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+        }
+
+        function changeFontSize(changeFS) {
+        
+                  var FontSize = document.getElementById("FontSize");
+                  var comp = window.getComputedStyle
+                        ? getComputedStyle(FontSize) 
+                        : FontSize.currentStyle;  
+                  var fontSize;
+
+                  if (comp) { 
+                      fontSize = parseFloat(comp && comp.fontSize);
+
+                      if (changeFS == document.getElementById("increasebtn")) {
+                        fontSize += 5;              
+                      } else if (changeFS == document.getElementById("decreasebtn")) {
+                        fontSize -= 5;
+                      }
+                      FontSize.style.fontSize = fontSize + "px";/*in pixels*/
+                  }
+                }
+        </script>
+    </body>
+</html>
