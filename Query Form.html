@@ -1,47 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Query Form</title>
+	<link rel="stylesheet" href="QueryForm.css">
+	<link rel="shortcut icon" type="image/jpg" href="favicon1.png"/>
 
-<!Doctype html>
-    <html lang="en">
-	    <head>
-		    <title>Touristy Form</title>
-			<meta charset="UTF-8">
-			<link rel="icon" href="favicon (1).ico" />
-			<link rel="stylesheet" type="text/css" href="style.css" />
-			</style>
+	<script src="QueryForm.js" crossorigin="anonymous"></script>
 
-            <script  defer src="Query Form.js">
+</head>
+<body>
 
-				
-            </script>
-		</head>
-		<body>
-			<div id = "error"></div>
-			<form id ="form" action="/" method="GET">
-			        <label for="fname">Name:</label>
-				    <input type="text" name="fname" id="fname" size="20">
-                    <div>
-                    <label for="email">Email:</label>
-				    <input type="email" name="email" id="email">
-					</div>
-                    <div>
-                    Hotels and Apartments<input type="radio" name="Product" id="subject 1" value="one">
-                    Travels & Tours<input type="radio" name="Product" id="subject 2" value="two">           
-                    Prices<input type="radio" name="Product" id="subject 3" value="three"> 
-					</div>   
-                    <div>
-				    <label for="jaddress" cols="6" rows="100">Details :</label>
-				    <textarea name="address" id="jaddress">
-				    </textarea>
-                    </div>
-				    <input type="button" value="Show and Clear Input" onclick="showAndClearField(this.form);">
-					<button type="submit">Submit</button>			    
-				
-			</form>
-		</body>
-	</html>	
+	<a href=""><img class="logo" src="Logo Touristy.png" alt="" width="304" height="80"></a>
+
+    <nav>
+        <div class="centerNavBar">
+            <ul>
+                <li><i class="fa-solid fa-house"></i>            <a href="" class="withoutLast">Main Page</a></li>
+                <li><i class="fa-solid fa-envelope-open"></i>    <a href="" class="withoutLast">Query Form</a></li>
+                <li><i class="fa-solid fa-cart-shopping"></i>    <a href="" class="withoutLast">Buy Product</a></li>
+                <li><i class="fa-solid fa-user-group"></i>       <a href="#" >Student Details</a></li>
+            </ul>
+        </div>
+    </nav>
+
+	<h1>Query Form</h1>
+
+	<div class="emailForm-center">
+		<form class="emailForm">
+			<label class="queryFormName">Name:  
+				<input type="text" class="nameInput" id="checkName">
+			</label><br><br>
+			<label class="queryFormEmail">Email: 
+				<input type="email" class="emailInput" id="checkEmail">
+			</label><br><br>
+			<table>
+				<tr>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioBook" value="Booking">Hotels Booking
+						</label>
+					</td>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioComplain" value="Postpone">Complain
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioCost" value="Cancelation">Cost Details
+						</label>
+					</td>
+					<td>
+						<label class="queryFormRadio">
+							<input type="radio"  name="querySubject" id="radioRefund" value="Refund" >Refund
+						</label>
+					</td>
+				</tr>
+			</table><br>
+
+			<textarea id="queryTextArea" cols="15" rows="8" placeholder="Enter Query Details"></textarea><br><br>	
+
+			<input type="button" class="checkBtn" onclick="movebtn()" value="Submit">
+
+		</form> <br><br><br>
 		
+	</div>
 
+	
+	<div class="popUpForm-center">
+		<div id="myModal" class="popUpForm">
 
+			<div class="check-Form">
+				<form id="checkedQueryForm">
+					<label class="namePopUpLabel">Name: 
+						<span class="inputPopUpForm" id="namePopUp"></span>
+					</label><br><br>
 
+					<label class="emailPopUpLabel">Email: 
+						<span class="inputPopUpForm" id="emailPopUp"></span>
+					</label><br><br>
 
+					<label class="subjectPopUpLabel">Sublect: 
+						<span class="inputPopUpForm" id="confoirmRadio"></span>
+					</label><br><br>
 
+					<label class="detailsPopUpLabel">Details: 
+						<textarea id="popUpdetails" cols="15" rows="8" readonly></textarea>
+					</label><br>
+					
+					
+				</form>
+				<br>
+				<div class="submitbuttons">
+					<button class="close btn" onclick="editFrame()">Edit</button>
+					<button id="submitBtn" onclick="submitCheckedForm(), location.href='mailto:abdullahmarikkar2@gmail.com'">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
 
+	<script src="QueryForm.js"></script>
+</body>
+</html>

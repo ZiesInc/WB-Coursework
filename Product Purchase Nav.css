@@ -18,18 +18,19 @@ div:hover{
     opacity: 1;
     transition: opacity 1s ease-in ;
 }
-#titleName{                          /*adding styles for the title*/
+#titleName{  
+    color:darkred;                        /*adding styles for the title*/
     float: left;
     position: relative;
     left: 2.5cm;
-    font: 23pt 'Georgia';
+    font: 23pt "Satisfy", cursive;
     font-weight: bold;
     bottom: 12px;
 }
 
 .main                          /*adding styles for the navigation link text*/
 {
-    color:black;
+    color:rgb(97, 27, 27);
     font: 18px Helvetica;
     margin: 0px 10px;
     padding: 10px 10px;
@@ -40,7 +41,7 @@ div:hover{
 }
 .yellow                          /*setting the background color for the navigation box*/
 {
-    background:rgb(78, 235, 78);
+    background:rgb(255, 255, 255);
 }
 
 .logo { 
@@ -49,7 +50,7 @@ div:hover{
     width: 90px;
     bottom: 65px;
     left: 10px;
-    position: relative;
+    position: left;
 }
                                                 /* Top and Bottom borders come in effects */
 

@@ -1,6 +1,6 @@
 ﻿
 body{
-    background-color:rgb(24, 156, 173);  
+    background-color:rgb(177, 135, 135);  
     font-family: Helvetica, sans-serif ;
     background-image: url("background1.png");
     background-size: auto;
@@ -8,7 +8,7 @@ body{
 
     h1{
     font-family: 'Courier New', Courier, monospace ;
-    color : white;  
+    color : rgb(95, 26, 26);  
     text-align : center; 
     font-size : 40px;  
     margin : 40px 20px 80px 20px;
@@ -16,7 +16,7 @@ body{
 
     h2{
     font-family: 'Courier New', Courier, monospace ;
-    color : rgb(113, 219, 14);  
+    color : rgb(133, 133, 133);  
     text-align : center; 
     font-size : 30px;  
     margin : 20px 10px 20px 10px;
@@ -33,7 +33,7 @@ body{
 
 
 .STORE{
-    background:rgb(98, 209, 24);
+    background:rgb(255, 255, 255);
     padding:20px; 
     
 }
@@ -41,7 +41,7 @@ body{
 .head_slides{
     border-top: 4px solid black;
     border-bottom:4px solid black;
-    background:rgb(114, 248, 25);
+    background:rgba(155, 155, 155, 0.911);
     padding:0.5px;
     height: 666px;
     position:center;
@@ -62,12 +62,12 @@ body{
 }
 
 .upDownButtons{
-    background:rgb(95, 196, 28);
+    background:rgb(255, 255, 255);
     padding:20px; 
 }
 
 #increasebtn{
-    background-color:rgb(91, 168, 95);
+    background-color:rgb(114, 65, 65);
     border: round;
     border-radius:15px;
     color: white;
@@ -80,7 +80,7 @@ body{
 }
 
 #decreasebtn{
-    background-color:rgb(91, 168, 95);
+    background-color:rgb(114, 65, 65);
     border: round;
     border-radius:15px;
     color: white;
@@ -212,7 +212,7 @@ body{
 
 .shop-item {
     border-radius: 25px;
-    background:rgb(86, 245, 47);
+    background:rgb(60, 52, 63);
     margin-top:80px;
 }
 
