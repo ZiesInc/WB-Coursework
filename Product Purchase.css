@@ -1,21 +1,21 @@
 ﻿
 body{
-    background-color:rgb(177, 135, 135);  
+    background-color:#c4c4c4;  
     font-family: Helvetica, sans-serif ;
     background-image: url("background1.png");
     background-size: auto;
     }
 
     h1{
-    font-family: 'Courier New', Courier, monospace ;
-    color : rgb(95, 26, 26);  
+    font-family:  monospace ;
+    color : #2b6277;  
     text-align : center; 
     font-size : 40px;  
     margin : 40px 20px 80px 20px;
     }
 
     h2{
-    font-family: 'Courier New', Courier, monospace ;
+    font-family:  monospace ;
     color : rgb(133, 133, 133);  
     text-align : center; 
     font-size : 30px;  
@@ -23,8 +23,8 @@ body{
     }
 
     h3{
-    font-family: Georgia, 'Times New Roman', Times, serif ;
-    color : rgb(46, 41, 46);  
+    font-family:Arial, Helvetica, sans-serif ;
+    color : #2b6277;  
     text-align : left; 
     font-size :20px;  
     margin :  50px 10px 20px 10px;
@@ -33,15 +33,15 @@ body{
 
 
 .STORE{
-    background:rgb(255, 255, 255);
+    background:#fdf6ec;
     padding:20px; 
     
 }
 
 .head_slides{
-    border-top: 4px solid black;
-    border-bottom:4px solid black;
-    background:rgba(155, 155, 155, 0.911);
+    border-top: 4px solid rgb(152, 165, 168);
+    border-bottom:4px solid rgb(152, 165, 168);
+    background:#c4c4c4;
     padding:0.5px;
     height: 666px;
     position:center;
@@ -62,15 +62,15 @@ body{
 }
 
 .upDownButtons{
-    background:rgb(255, 255, 255);
+    background:#fdf6ec;
     padding:20px; 
 }
 
 #increasebtn{
-    background-color:rgb(114, 65, 65);
+    background-color:#2b6277;
     border: round;
     border-radius:15px;
-    color: white;
+    color: #fdf6ec;
     padding: 15px 36px;
     text-align: center; 
     display: inline-block;
@@ -80,10 +80,10 @@ body{
 }
 
 #decreasebtn{
-    background-color:rgb(114, 65, 65);
+    background-color:#2b6277;
     border: round;
     border-radius:15px;
-    color: white;
+    color: #fdf6ec;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -99,14 +99,6 @@ body{
     border-radius: 15px;
 }
 
- #A_ball{
-     color:white;
-     background:black;
-     padding:15px;
-     border:round;
-     border-bottom:solid 2px grey;
-     border-radius: 15px;
-	}
 
 .content-section {
     padding: 12px;
@@ -120,11 +112,11 @@ body{
 .section-header {   
     font-weight: normal;  
     text-align: center;
-    background:rgb(64, 228, 64);
-    color:black;
+    background:#2b6277;
+    color:rgb(255, 255, 255);
     border-radius: 15px;
-    border-bottom:5px solid white;
-    border-top:5px solid white;
+    border-bottom:5px solid #fdf6ec;
+    border-top:5px solid #fdf6ec;
     padding:7px;
     margin-bottom:55px;
 }
@@ -139,7 +131,7 @@ body{
 
 .main-footer {
     background-color: #56CCF2;
-    color: white;
+    color: #fdf6ec;
     padding: .25px 0;
 }
 
@@ -199,7 +191,7 @@ body{
 
 .btn-primary {
     color: white;
-    background-color: rgb(71, 45, 66);
+    background-color: #2b6277;
     border: none;
     border-radius: 10px;
     font-weight: bold;
@@ -212,7 +204,7 @@ body{
 
 .shop-item {
     border-radius: 25px;
-    background:rgb(60, 52, 63);
+    background:#fdf6ec;
     margin-top:80px;
 }
 
@@ -241,7 +233,7 @@ body{
 
 .shop-item-price {
     flex-grow: 1;
-    color: #fff;
+    color: #2b6277;
 }
 
 .shop-items {
@@ -342,7 +334,7 @@ body{
 }
 
 .cart-total-price {
-    color: #f2d22e      
+    color: #6b0000      
 }
 
 .btn-purchase {
