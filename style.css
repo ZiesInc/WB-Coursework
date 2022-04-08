@@ -29,7 +29,7 @@ html {
       rgba(0, 0, 0, 0.475),
       rgba(0, 0, 0, 0.3)
     ),
-    url("../WB-Coursework/sigiriya.jpg");
+    url("/sigiriya.jpg");
   background-size: cover;
   height: 1100px;
   width: 100%;
@@ -55,7 +55,7 @@ html {
   position: relative;
   width: 615px;
   height: 41px;
-  left: 733px;
+  left: 970px;
   bottom: 230px;
   background: rgba(255, 255, 255, 0.62);
   border-radius: 20px 0px 0px 20px;
@@ -237,7 +237,7 @@ a {
       rgba(0, 0, 0, 0.475),
       rgba(0, 0, 0, 0.3)
     ),
-    url("../WB-Coursework/hill.jpg");
+    url("/hill.jpg");
   background-size: cover;
   height: 695px;
 }
@@ -273,7 +273,7 @@ a {
   width: 145px;
   position: relative;
   top: 40px;
-  left: 500px;
+  left: 600px;
 }
 
 .btn:hover {
